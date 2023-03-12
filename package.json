@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "peerDependencies": {
+    "date-format": "^4.0.14"
   }
 }
