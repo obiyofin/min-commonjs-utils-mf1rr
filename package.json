@@ -4,7 +4,7 @@
   "description": "Some really cool stuff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "cool",
@@ -19,5 +19,8 @@
   "homepage": "https://brave-volhard-d2dd76.netlify.app",
   "author": "obiyofin",
   "license": "MIT",
-  "bugs": "https://github.com/obiyofin/min-commonjs-utils-mf1rr/issues"
+  "bugs": "https://github.com/obiyofin/min-commonjs-utils-mf1rr/issues",
+  "dependencies": {
+    "slugify": "^1.6.5"
+  }
 }
